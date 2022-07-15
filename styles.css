@@ -70,7 +70,7 @@ select{
 }
 
 .form-item-not-first{
-    margin-left:3%;
+    margin-left:2%;
 }
 
 input[type="button"]{
@@ -100,6 +100,8 @@ input[type="button"]:hover{
     /* border:1px solid white; */
     height:5%;
     overflow:hidden;
+    display: flex;
+    
 
 }
 
@@ -108,5 +110,22 @@ input[type="button"]:hover{
     /* border:1px solid white; */
     width:20%;
 }
+.colors:hover{
+    cursor:pointer;
+}
 
-/* default styling for the colours (acting like placeholders) */
+
+/*hex values*/
+
+.hex{
+    /* border:1px solid white; */
+    text-align: center;
+    font-size:0.6em;
+    padding:3px;
+    width:20%;
+    opacity: 85%;
+
+}
+.hex:hover{
+    cursor:pointer;
+}
