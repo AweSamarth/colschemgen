@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    
     background:#2d4463;
     display:flex;
     align-items: center;
@@ -24,11 +25,21 @@ body{
     /* border:1px solid white; */
     width:32%;
     height:60%;
+    min-height:60%;
     border-radius:7px;
 }
+#huh{
+    overflow:hidden;
+
+    border:1px solid white;
+    z-index: 1;
+    height:15%;
+    align-items: flex-start;
+    justify-content: center;
+}
 input[type=color]{
-	width: 80px;
-	height: 50px;
+	width: 20%;
+	height: 7vh;
 	border:none;
 	background: none;
 }
@@ -43,20 +54,19 @@ select{
     background: #1F2937;
     border-color: #cacaca;
     color:white;
-    height:2.9em;
+    height:6vh;
     width:21em;
     border-radius:2px;
 }
 
-option{
-    letter-spacing: 5px;
-}
+
 
 #thisform{
     display:flex;
     /* border:1px solid white; */
     align-items: center;
-    ;
+    /* justify-content: center; */
+    
 }
 
 .form-item-not-first{
@@ -64,7 +74,7 @@ option{
 }
 
 input[type="button"]{
-    height:2.7em;
+    height:6vh;
     border-radius:2.5px;
     border-color:transparent;
     color:white;
@@ -75,25 +85,30 @@ input[type="button"]{
 input[type="button"]:hover{
     cursor:pointer;
 }
-#huh{
-    border:1px solid white;
-    height:15%;
-    align-items: flex-start;
-    justify-content: center;
-}
+
 
 /* Styling the swatches now */
 #heh{
-    border:1px solid white;
+    overflow: hidden;
+    /* border:1px solid white; */
     height:80%;
     display:flex;
+    z-index: 0;
+
 }
 #hah{
-    border:1px solid white;
+    /* border:1px solid white; */
     height:5%;
+    overflow:hidden;
+
 }
 
 .colors{
+    overflow:hidden;
     border:1px solid white;
     width:20%;
+}
+
+#one{
+    background-color: red;
 }
