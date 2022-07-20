@@ -31,7 +31,7 @@ body{
 #huh{
     overflow:show;
     width:100%;
-    border:1px solid white;
+    /* border:1px solid white; */
     z-index: 1;
     height:13%;
     align-items: flex-start;
@@ -60,7 +60,7 @@ select{
     height:6vh;
     width:50%;
     border-radius:2px;
-    border:1px solid white;
+    /* border:1px solid white; */
 
 }
 
@@ -146,10 +146,12 @@ input[type="button"]:hover{
 
     input[type="button"]{
       min-height:100%;  
+      font-size: 1.05em;
     }
 
     select{
         min-height:100%;  
+        font-size:1.1em;
 
         }
     input[type=color]{
