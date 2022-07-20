@@ -130,23 +130,10 @@ input[type="button"]:hover{
     cursor:pointer;
 }
 
-@media(max-width:1050px){
-    #mainthing{
-        width:45%;
-        height:75%;
-    }
-}
-
-@media(max-width:720px){
-    #mainthing{
-        width:50%;
-        height:80%;
-    }
-}
 
 @media(max-width:900px){
     #mainthing{
-        width:100%;
-        height:100%;
+        width: 95%;
+        height:95%;
     }
 }
