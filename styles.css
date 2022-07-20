@@ -157,7 +157,7 @@ input[type="button"]:hover{
 
     input[type="button"]{
       min-height:100%;  
-      font-size: 1.05em;
+      font-size: 0.7em;
     }
 
     select{
