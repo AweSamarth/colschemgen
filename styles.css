@@ -1,9 +1,12 @@
 html{
-    box-sizing: border-box;
+    height:100%;
+    
 }
 
 body{
-    
+    box-sizing: border-box;
+    /* overflow:hidden; */
+    height:100%;
     background:#1d062c;
     display:flex;
     align-items: center;
@@ -29,7 +32,7 @@ body{
     border-radius:7px;
 }
 #huh{
-    overflow:show;
+    overflow:hidden;
     width:100%;
     /* border:1px solid white; */
     z-index: 1;
@@ -95,6 +98,9 @@ input[type="button"]:hover{
 }
 /* upper section done */
 
+
+
+
 /* Styling the swatches now */
 #sometext{
     height:4%;
@@ -148,7 +154,14 @@ input[type="button"]:hover{
 }
 
 
+
+
+
 @media(max-width:900px){
+
+    body{
+        overflow:hidden;
+    }
     #mainthing{
         width: 95%;
         height:95%;
