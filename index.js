@@ -15,6 +15,12 @@ function checker(){
         for (let i=0;i<5;i++){
         document.getElementById(`c${i}`).style.background=data.colors[i].hex.value
         document.getElementById(`h${i}`).textContent=data.colors[i].hex.value
+        document.getElementById(`c${i}`).addEventListener("click", ()=>{
+            navigator.clipboard.writeText(data.colors[i].hex.value)
+        })
+        document.getElementById(`h${i}`).addEventListener("click", ()=>{
+            navigator.clipboard.writeText(data.colors[i].hex.value)
+        })
         arr.push(data.colors[i].hex.value)
             }
         
@@ -22,54 +28,3 @@ function checker(){
     )
     
 }
-// 1
-document.getElementById("c0").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[0])
-})
-document.getElementById("h0").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[0])
-})
-
-
-// 2
-document.getElementById("c1").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[1])
-})
-document.getElementById("h1").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[1])
-})
-
-
-//3
-document.getElementById("c2").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[2])
-})
-document.getElementById("h2").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[2])
-})
-
-
-//4
-document.getElementById("c3").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[3])
-})
-document.getElementById("h3").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[3])
-})
-
-
-//5
-document.getElementById("c4").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[4])
-})
-document.getElementById("h4").addEventListener("click", ()=>{
-    navigator.clipboard.writeText(arr[4])
-})
-
-
-
-
-
-
-
-
